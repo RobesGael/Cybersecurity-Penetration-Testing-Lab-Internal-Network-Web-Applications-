@@ -157,6 +157,36 @@ Sensitive Data Exposure
 Business Logic Manipulation
 Cross-Site Scripting
 Confidential File Exposure
+
+
+
+
+## Phase 5: Exploitation
+
+
+
+## Phase 6: Post-Exploitation Analysis
+Objectives
+
+Assess potential business impact and attack paths.
+
+Potential Impacts
+Unauthorized administrative access
+Sensitive data exposure
+Financial fraud
+Account compromise
+Loss of data integrity
+Potential lateral movement opportunities
+
+
+## Phase 7: Reporting
+Deliverables Produced
+Executive Summary
+Technical Findings
+CVSS Scoring
+MITRE ATT&CK Mapping
+Remediation Recommendations
+
 ## Methodology (NIST SP 800-115)
 1.	Planning & Scoping 
 2.	Reconnaissance 
