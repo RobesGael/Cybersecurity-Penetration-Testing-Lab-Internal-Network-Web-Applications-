@@ -78,7 +78,7 @@ Targets:
 ## Phase 2: Reconnaissance
 
 #### Host Discovery
-
+![image alt](https://github.com/RobesGael/Cybersecurity-Penetration-Testing-Lab-Internal-Network-Web-Applications-/blob/91f9a1bda10b1e7c6f0400bff88bea39922affcc/1-DISCOVERY.png)
 #### Service Discovery
 
 ## Methodology (NIST SP 800-115)
