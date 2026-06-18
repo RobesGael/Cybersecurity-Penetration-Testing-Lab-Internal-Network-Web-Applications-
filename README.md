@@ -23,40 +23,40 @@ The assessment follows the NIST SP 800-115 methodology, aligned with real-world 
 
 
 #### Network Scope
-•	Testing type: Internal penetration test 
-•	Attack position: Same-network attacker 
+- Testing type: Internal penetration test 
+- Attack position: Same-network attacker 
 
 #### In-Scope Services
-•	Web applications (3000) 
-•	SMB (445) 
-•	RDP (3389) 
-•	WinRM (5985) 
-•	SSH (22) 
-•	RPC (135) 
-•	WSDAPI (5357) 
+- Web applications (3000) 
+- SMB (445) 
+- RDP (3389) 
+- WinRM (5985) 
+- SSH (22) 
+- RPC (135) 
+- WSDAPI (5357) 
 
 
 #### Out of Scope 
-•	Physical security testing 
-•	External internet infrastructure 
-•	Social engineering attacks 
+- Physical security testing 
+- External internet infrastructure 
+- Social engineering attacks 
 
 
 ## Rules of Engagement
-•	No intentional service disruption 
-•	No data deletion or corruption 
-•	No persistence mechanisms deployed 
-•	Testing performed in an isolated lab environment only 
-•	All activity is authorized for educational purposes 
+- No intentional service disruption 
+- No data deletion or corruption 
+- No persistence mechanisms deployed 
+- Testing performed in an isolated lab environment only 
+- All activity is authorized for educational purposes 
 
 
 ## Objectives
-•	Identify vulnerabilities across network and application layers 
-•	Perform full attack surface mapping 
-•	Exploit OWASP Top 10 vulnerabilities 
-•	Evaluate Windows service exposure risks 
-•	Demonstrate lateral movement potential 
-•	Document findings in a professional security report format 
+- Identify vulnerabilities across network and application layers 
+- Perform full attack surface mapping 
+- Exploit OWASP Top 10 vulnerabilities 
+- Evaluate Windows service exposure risks 
+- Demonstrate lateral movement potential 
+- Document findings in a professional security report format 
 
 
 ## Lab Architecture
@@ -81,16 +81,16 @@ Targets:
 
 
 ## Tools Used
-Network & Enumeration
+- Network & Enumeration
 •	Nmap 
 •	Gobuster 
  
-Web Application Security
+- Web Application Security
 •	Burp Suite 
 •	OWASP Juice Shop 
 •	Browser DevTools 
 
-Infrastructure Analysis
+- Infrastructure Analysis
 •	SSH enumeration scripts 
 •	SMB/RDP probing tools 
 •	WinRM testing utilities 
