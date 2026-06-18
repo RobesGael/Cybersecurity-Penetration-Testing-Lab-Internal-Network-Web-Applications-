@@ -99,7 +99,27 @@ Services Identified:
 <img width="818" height="271" alt="Image" src="https://github.com/user-attachments/assets/3c489b38-1dd5-417d-811e-a7be68d71b6d" />
 
 - TCP/135 – MSRPC
+<img width="1013" height="237" alt="Image" src="https://github.com/user-attachments/assets/ece850ef-b448-46da-9458-6fe2fe573c83" />
 
+
+#### a- Windows server (WIN 11/192.168.1.219)
+Services Identified:
+- TCP/3389 – RDP
+<img width="972" height="586" alt="Image" src="https://github.com/user-attachments/assets/91249a4a-5caf-4309-9a30-5b316ba4a6fb" />
+
+- TCP/139 & 445
+<img width="728" height="281" alt="Image" src="https://github.com/user-attachments/assets/74b63bed-3f99-425d-98cf-a0de079556e5" />
+<img width="908" height="355" alt="Image" src="https://github.com/user-attachments/assets/c10a8e70-f125-4820-be3e-9a1bf87f2cbb" />
+<img width="917" height="422" alt="Image" src="https://github.com/user-attachments/assets/679c9347-9f85-4f00-b73d-b14c9ac7f139" />
+
+- TCP/135 - RPC
+<img width="676" height="88" alt="Image" src="https://github.com/user-attachments/assets/c4704af9-ffe9-4352-9cdb-e9ff0918f1ef" />
+
+- TCP/5357 - WSDAPI
+<img width="872" height="196" alt="Image" src="https://github.com/user-attachments/assets/99f5e275-4815-4409-880e-093c491aa9b0" />
+
+- TCP/5985 - WSMAN
+<img width="882" height="196" alt="Image" src="https://github.com/user-attachments/assets/5a3da13f-2eaa-4a66-b376-d9a2b947f74d" />
 
 
 ## Methodology (NIST SP 800-115)
