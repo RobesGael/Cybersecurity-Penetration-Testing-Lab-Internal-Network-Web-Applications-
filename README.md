@@ -13,7 +13,7 @@ The assessment follows the NIST SP 800-115 methodology, aligned with real-world 
 
 
 ## Scope of Engagement
-### In-Scope Assets
+#### In-Scope Assets
 Asset	          IP Address	     Role
 Kali Linux	    192.168.1.203	   Attacker Machine
 Windows 11	    192.168.1.136	   User Workstation
@@ -22,11 +22,11 @@ Ubuntu Server	  192.168.1.145	   Web Application Host (OWASP Juice Shop)
 Wazuh SIEM	    192.168.1.105	   Security Monitoring System
 
 
-### Network Scope
+#### Network Scope
 •	Testing type: Internal penetration test 
 •	Attack position: Same-network attacker 
 
-### In-Scope Services
+#### In-Scope Services
 •	Web applications (3000) 
 •	SMB (445) 
 •	RDP (3389) 
@@ -36,7 +36,7 @@ Wazuh SIEM	    192.168.1.105	   Security Monitoring System
 •	WSDAPI (5357) 
 
 
-### Out of Scope 
+#### Out of Scope 
 •	Physical security testing 
 •	External internet infrastructure 
 •	Social engineering attacks 
