@@ -102,7 +102,7 @@ Services Identified:
 <img width="1013" height="237" alt="Image" src="https://github.com/user-attachments/assets/ece850ef-b448-46da-9458-6fe2fe573c83" />
 
 
-#### a- Windows server (WIN 11/192.168.1.219)
+#### b- Windows server (WIN 11/192.168.1.219)
 Services Identified:
 - TCP/3389 – RDP
 <img width="972" height="586" alt="Image" src="https://github.com/user-attachments/assets/91249a4a-5caf-4309-9a30-5b316ba4a6fb" />
@@ -120,6 +120,20 @@ Services Identified:
 
 - TCP/5985 - WSMAN
 <img width="882" height="196" alt="Image" src="https://github.com/user-attachments/assets/5a3da13f-2eaa-4a66-b376-d9a2b947f74d" />
+
+
+#### c- Ubuntu Server (Target3/192.168.1.145)
+Services Identified:
+
+- TCP/22 - SSH
+<img width="780" height="787" alt="Image" src="https://github.com/user-attachments/assets/f93b2dbc-b8b2-4dd5-9019-ac8ba0b2b486" />
+<img width="762" height="247" alt="Image" src="https://github.com/user-attachments/assets/eccc60fb-08e2-4aed-9556-93e9710c90cb" />
+<img width="822" height="262" alt="Image" src="https://github.com/user-attachments/assets/2fa0f956-3f53-4ae2-a849-fcbef6af16ac" />
+
+- TCP/3000 - Web application (HTTP/OWASP Juice Shop) 
+<img width="715" height="307" alt="Image" src="https://github.com/user-attachments/assets/8c8b6d8e-8d25-4df2-b1ac-f4b9c8c122f7" />
+<img width="1897" height="207" alt="Image" src="https://github.com/user-attachments/assets/3c881983-fc6d-471f-a16a-0019a0e82172" />
+<img width="705" height="712" alt="Image" src="https://github.com/user-attachments/assets/37a99067-9ed0-41c2-97f5-e10ee6921355" />
 
 
 ## Methodology (NIST SP 800-115)
