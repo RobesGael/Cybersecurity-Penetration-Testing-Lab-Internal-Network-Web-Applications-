@@ -130,12 +130,30 @@ Services Identified:
 <img width="762" height="247" alt="Image" src="https://github.com/user-attachments/assets/eccc60fb-08e2-4aed-9556-93e9710c90cb" />
 <img width="822" height="262" alt="Image" src="https://github.com/user-attachments/assets/2fa0f956-3f53-4ae2-a849-fcbef6af16ac" />
 
-- TCP/3000 - Web application (HTTP/OWASP Juice Shop) 
+- TCP/3000 - Web application (HTTP/OWASP Juice Shop)
+
+HTTP Response Headers:
 <img width="715" height="307" alt="Image" src="https://github.com/user-attachments/assets/8c8b6d8e-8d25-4df2-b1ac-f4b9c8c122f7" />
+
+Web Technology Fingerprinting:
 <img width="1897" height="207" alt="Image" src="https://github.com/user-attachments/assets/3c881983-fc6d-471f-a16a-0019a0e82172" />
+
+Gobuster - Directory Enumeration:
 <img width="705" height="712" alt="Image" src="https://github.com/user-attachments/assets/37a99067-9ed0-41c2-97f5-e10ee6921355" />
 
+## Phase 4: Vulnerability Analysis
+Objectives
 
+Identify vulnerabilities and determine their impact.
+
+Key Findings
+SQL Injection
+Broken Access Control
+IDOR
+Sensitive Data Exposure
+Business Logic Manipulation
+Cross-Site Scripting
+Confidential File Exposure
 ## Methodology (NIST SP 800-115)
 1.	Planning & Scoping 
 2.	Reconnaissance 
