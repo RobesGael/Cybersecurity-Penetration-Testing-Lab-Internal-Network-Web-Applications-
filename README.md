@@ -79,6 +79,7 @@ Targets:
 
 #### Host Discovery
 ![image alt](https://github.com/RobesGael/Cybersecurity-Penetration-Testing-Lab-Internal-Network-Web-Applications-/blob/91f9a1bda10b1e7c6f0400bff88bea39922affcc/1-DISCOVERY.png)
+<img width="832" height="203" alt="Image" src="https://github.com/user-attachments/assets/e4126c5b-1dcd-43a0-87b0-35003c5a5f7d" />
 #### Service Discovery
 
 ## Methodology (NIST SP 800-115)
