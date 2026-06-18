@@ -3,12 +3,12 @@
 
 ## Project Overview
 This project simulates a real-world enterprise penetration test performed in a controlled lab environment. The objective is to demonstrate offensive security skills across:
-•	Network reconnaissance and enumeration 
-•	Web application penetration testing (OWASP Juice Shop) 
-•	API security assessment 
-•	Windows and Linux service analysis 
-•	Vulnerability exploitation and reporting 
-•	Risk analysis using CVSS v3.1 and MITRE ATT&CK 
+- Network reconnaissance and enumeration 
+- Web application penetration testing (OWASP Juice Shop) 
+- API security assessment 
+- Windows and Linux service analysis 
+- Vulnerability exploitation and reporting 
+- Risk analysis using CVSS v3.1 and MITRE ATT&CK 
 The assessment follows the NIST SP 800-115 methodology, aligned with real-world consulting penetration testing practices.
 
 
@@ -133,12 +133,15 @@ Services Identified:
 - TCP/3000 - Web application (HTTP/OWASP Juice Shop)
 
 HTTP Response Headers:
+
 <img width="715" height="307" alt="Image" src="https://github.com/user-attachments/assets/8c8b6d8e-8d25-4df2-b1ac-f4b9c8c122f7" />
 
 Web Technology Fingerprinting:
+
 <img width="1897" height="207" alt="Image" src="https://github.com/user-attachments/assets/3c881983-fc6d-471f-a16a-0019a0e82172" />
 
 Gobuster - Directory Enumeration:
+
 <img width="705" height="712" alt="Image" src="https://github.com/user-attachments/assets/37a99067-9ed0-41c2-97f5-e10ee6921355" />
 
 ## Phase 4: Vulnerability Analysis
