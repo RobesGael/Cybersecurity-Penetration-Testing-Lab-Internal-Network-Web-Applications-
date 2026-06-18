@@ -81,16 +81,11 @@ Targets:
 
 
 ## Tools Used
-- Network & Enumeration
-•	Nmap 
-•	Gobuster 
+- Network & Enumeration: Nmap, Gobuster 
  
-- Web Application Security
-•	Burp Suite 
-•	OWASP Juice Shop 
-•	Browser DevTools 
+- Web Application Security: Burp Suite, OWASP Juice Shop, Browser DevTools 
 
-- Infrastructure Analysis
+- Infrastructure Analysis:
 •	SSH enumeration scripts 
 •	SMB/RDP probing tools 
 •	WinRM testing utilities 
