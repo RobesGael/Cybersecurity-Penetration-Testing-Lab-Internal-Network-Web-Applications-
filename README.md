@@ -11,8 +11,20 @@ This project simulates a real-world enterprise penetration test performed in a c
 •	Risk analysis using CVSS v3.1 and MITRE ATT&CK 
 The assessment follows the NIST SP 800-115 methodology, aligned with real-world consulting penetration testing practices.
 
+## Lab Architecture
+Attacker: Kali Linux
+IP: 192.168.1.203
 
-## Scope of Engagement
+Targets:
+- Windows 11: 192.168.1.136
+- Windows Server: 192.168.1.219
+- Ubuntu Server (Juice Shop): 192.168.1.145
+- SIEM (Wazuh): 192.168.1.105
+
+  
+## Phase 1: Planning & Scoping
+
+### Scope of Engagement
 #### In-Scope Assets
   Asset	          IP Address	     Role
 - Kali Linux	    192.168.1.203	   Attacker Machine
@@ -42,7 +54,7 @@ The assessment follows the NIST SP 800-115 methodology, aligned with real-world 
 - Social engineering attacks 
 
 
-## Rules of Engagement
+### Rules of Engagement
 - No intentional service disruption 
 - No data deletion or corruption 
 - No persistence mechanisms deployed 
@@ -50,7 +62,7 @@ The assessment follows the NIST SP 800-115 methodology, aligned with real-world 
 - All activity is authorized for educational purposes 
 
 
-## Objectives
+### Objectives
 - Identify vulnerabilities across network and application layers 
 - Perform full attack surface mapping 
 - Exploit OWASP Top 10 vulnerabilities 
@@ -59,15 +71,7 @@ The assessment follows the NIST SP 800-115 methodology, aligned with real-world 
 - Document findings in a professional security report format 
 
 
-## Lab Architecture
-Attacker: Kali Linux
-IP: 192.168.1.203
 
-Targets:
-- Windows 11: 192.168.1.136
-- Windows Server: 192.168.1.219
-- Ubuntu Server (Juice Shop): 192.168.1.145
-- SIEM (Wazuh): 192.168.1.105
 
 
 ## Methodology (NIST SP 800-115)
