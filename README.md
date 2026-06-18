@@ -84,6 +84,9 @@ Targets:
 <img width="823" height="196" alt="Image" src="https://github.com/user-attachments/assets/161b3a24-9312-4dbb-bf05-36517947617a" />
 
 #### Service Discovery
+<img width="1135" height="860" alt="Image" src="https://github.com/user-attachments/assets/97d3e990-78c1-4b57-9020-4d6b0044dad0" />
+<img width="1408" height="862" alt="Image" src="https://github.com/user-attachments/assets/0119d6b2-8824-439a-8801-7fa03eef0b77" />
+<img width="1401" height="788" alt="Image" src="https://github.com/user-attachments/assets/e69422bb-19d5-44e5-823a-157da25c593b" />
 
 ## Methodology (NIST SP 800-115)
 1.	Planning & Scoping 
