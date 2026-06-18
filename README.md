@@ -88,6 +88,17 @@ Targets:
 <img width="1408" height="862" alt="Image" src="https://github.com/user-attachments/assets/0119d6b2-8824-439a-8801-7fa03eef0b77" />
 <img width="1401" height="788" alt="Image" src="https://github.com/user-attachments/assets/e69422bb-19d5-44e5-823a-157da25c593b" />
 
+
+## Phase 3: Scanning & Enumeration 
+
+#### a- Windows 11 (WIN 11/192.168.1.136)
+
+Services Identified:
+- TCP/445 – SMB
+- TCP/135 – MSRPC
+
+
+
 ## Methodology (NIST SP 800-115)
 1.	Planning & Scoping 
 2.	Reconnaissance 
