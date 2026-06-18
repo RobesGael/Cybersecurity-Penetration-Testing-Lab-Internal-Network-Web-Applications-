@@ -95,6 +95,9 @@ Targets:
 
 Services Identified:
 - TCP/445 – SMB
+<img width="875" height="393" alt="Image" src="https://github.com/user-attachments/assets/e0e06826-2ab8-4bb2-a4e8-fffea3699ba9" />
+<img width="818" height="271" alt="Image" src="https://github.com/user-attachments/assets/3c489b38-1dd5-417d-811e-a7be68d71b6d" />
+
 - TCP/135 – MSRPC
 
 
