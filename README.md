@@ -14,12 +14,12 @@ The assessment follows the NIST SP 800-115 methodology, aligned with real-world 
 
 ## Scope of Engagement
 #### In-Scope Assets
-Asset	          IP Address	     Role
-Kali Linux	    192.168.1.203	   Attacker Machine
-Windows 11	    192.168.1.136	   User Workstation
-Windows Server	192.168.1.219	   Enterprise Server
-Ubuntu Server	  192.168.1.145	   Web Application Host (OWASP Juice Shop)
-Wazuh SIEM	    192.168.1.105	   Security Monitoring System
+  Asset	          IP Address	     Role
+- Kali Linux	    192.168.1.203	   Attacker Machine
+- Windows 11	    192.168.1.136	   User Workstation
+- Windows Server	192.168.1.219	   Enterprise Server
+- Ubuntu Server	  192.168.1.145	   Web Application Host (OWASP Juice Shop)
+- Wazuh SIEM	    192.168.1.105	   Security Monitoring System
 
 
 #### Network Scope
