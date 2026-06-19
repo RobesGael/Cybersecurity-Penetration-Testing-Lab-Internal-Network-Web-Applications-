@@ -162,6 +162,40 @@ Confidential File Exposure
 
 
 ## Phase 5: Exploitation
+### 1. Feedback Access Control Weakness
+
+### 2. Sensitive Data Exposure (/rest/memories)
+High
+→ Password hashes + user data exposed
+________________________________________
+### 3. API Overexposure (/api/quantity)
+Low–Medium
+→ Inventory data leakage
+________________________________________
+### 4. IDOR in Basket API
+High
+→ Cross-user data access via parameter manipulation
+________________________________________
+### 5. Business Logic Vulnerability
+High
+→ Negative quantity → wallet credit manipulation
+________________________________________
+### 6. Confidential File Exposure (/ftp/acquisition)
+High
+→ Sensitive document accessible without authorization
+________________________________________
+### 7. SQL Injection Authentication Bypass
+Critical
+→ Full authentication bypass
+________________________________________
+### 8. SQL Injection (Search Endpoint)
+Critical
+→ Database enumeration + schema exposure
+________________________________________
+### 9. Cross-Site Scripting (XSS)
+High
+→ Script execution + session/token exposure
+________________________________________
 
 
 
