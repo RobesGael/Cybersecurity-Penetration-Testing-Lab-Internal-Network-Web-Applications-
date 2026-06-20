@@ -204,6 +204,8 @@ Other users' baskets.
 
 #### The application allows quantity manipulation, including negative values, enabling unauthorized price manipulation and invalid purchases.
 
+#### I added product ID 12 to my basket, then used Burp Repeater to modify the quantity to 2 and later to –3. The server accepted both values, and I was able to complete checkout successfully.
+
 <img width="1292" height="543" alt="Image" src="https://github.com/user-attachments/assets/3f9b4105-60e3-49ad-b233-10c576dbaf12" />
 <img width="1372" height="591" alt="Image" src="https://github.com/user-attachments/assets/df9f6d85-efcb-48ed-84b9-57f4bdc38e84" />
 <img width="1227" height="680" alt="Image" src="https://github.com/user-attachments/assets/2f5c85aa-83c6-490f-ac63-2202fc9ecd39" />
