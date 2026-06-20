@@ -350,18 +350,33 @@ Steps:
 
 
 
-## Phase 6: Post-Exploitation Analysis
-Objectives
+## Phase 6 – Post‑Exploitation Analysis
 
-Assess potential business impact and attack paths.
+#### Objectives
 
-Potential Impacts
-Unauthorized administrative access
-Sensitive data exposure
-Financial fraud
-Account compromise
-Loss of data integrity
-Potential lateral movement opportunities
+
+- Determine the extent of access, data exposure, and privilege escalation opportunities.
+
+- Evaluate how an attacker could leverage compromised assets to deepen their foothold.
+
+#### Potential Impacts
+- Unauthorized administrative access:  
+Compromised tokens, sessions, or credentials may allow attackers to escalate privileges and gain full administrative control.
+
+- Sensitive data exposure:  
+Access to user profiles, emails, password hashes, roles, and internal documents increases the risk of data breaches.
+
+- Financial fraud:  
+Manipulation of business logic, transactions, or user accounts could result in unauthorized purchases or financial loss.
+
+- Account compromise:  
+Extracted tokens or credentials can be used to impersonate users, take over accounts, or perform malicious actions.
+
+- Loss of data integrity:  
+Attackers may alter, delete, or corrupt data, impacting operational reliability and trust.
+
+- Potential lateral movement opportunities:  
+Access to internal tokens, APIs, or backend services may allow pivoting deeper into the environment.
 
 
 ## Phase 7: Reporting
