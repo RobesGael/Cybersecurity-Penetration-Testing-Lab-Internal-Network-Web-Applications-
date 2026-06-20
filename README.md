@@ -180,6 +180,7 @@ Confidential File Exposure
 
 #### The GET /rest/memory/ HTTP/1.1 endpoint leaks other users information in its response, resulting in unauthorized disclosure of user data.
 <img width="1420" height="638" alt="Image" src="https://github.com/user-attachments/assets/30f728aa-e937-4fe6-9f83-2fb132ee0bc6" />
+
 <img width="1430" height="692" alt="Image" src="https://github.com/user-attachments/assets/924d3e86-2c59-457c-aa2b-eeaec58088a6" />
 
 
@@ -207,10 +208,20 @@ Other users' baskets.
 #### I added product ID 12 to my basket, then used Burp Repeater to modify the quantity to 2 and later to –3. The server accepted both values, and I was able to complete checkout successfully.
 
 <img width="1292" height="543" alt="Image" src="https://github.com/user-attachments/assets/3f9b4105-60e3-49ad-b233-10c576dbaf12" />
+
+-
 <img width="1372" height="591" alt="Image" src="https://github.com/user-attachments/assets/df9f6d85-efcb-48ed-84b9-57f4bdc38e84" />
+
+-
 <img width="1227" height="680" alt="Image" src="https://github.com/user-attachments/assets/2f5c85aa-83c6-490f-ac63-2202fc9ecd39" />
+
+-
 <img width="1451" height="566" alt="Image" src="https://github.com/user-attachments/assets/c6e80706-b6bb-40a5-81fc-3863b50d9df9" />
+
+-
 <img width="1345" height="666" alt="Image" src="https://github.com/user-attachments/assets/c2f43516-fdd6-4ed6-afba-83ac8711c6cd" />
+
+-
 <img width="1252" height="541" alt="Image" src="https://github.com/user-attachments/assets/e78b19ec-9aa0-4fdc-b4bd-830030a0d776" />
 
 
@@ -226,8 +237,11 @@ Steps:
 
 <img width="1317" height="756" alt="Image" src="https://github.com/user-attachments/assets/39aecd74-7ab9-4d29-add8-76ce686bc25b" />
 
+-
+
 <img width="1312" height="740" alt="Image" src="https://github.com/user-attachments/assets/bcc3021f-8bd1-446f-954a-d9fffe9586f0" />
 
+-
 <img width="1266" height="742" alt="Image" src="https://github.com/user-attachments/assets/9a458655-db46-48cb-aca4-b2545bcb0931" />
 
 
@@ -260,35 +274,35 @@ Steps:
 
 <img width="1542" height="685" alt="Image" src="https://github.com/user-attachments/assets/c066b7fa-076a-4d23-bc17-35bd664363f1" />
 
-
+-
 
 <img width="1593" height="687" alt="Image" src="https://github.com/user-attachments/assets/9a27d51f-5a41-436e-a9db-cc41a9cb5a91" />
 
-
+-
 
 <img width="1522" height="617" alt="Image" src="https://github.com/user-attachments/assets/3d1f5d5d-897e-4be6-a2c9-819a7db1158f" />
 
-
+-
 
 <img width="1522" height="673" alt="Image" src="https://github.com/user-attachments/assets/b1e529ac-369b-49c0-81c6-281b272852e6" />
 
-
+-
 
 <img width="1522" height="626" alt="Image" src="https://github.com/user-attachments/assets/9fadfea5-6fd2-48b3-be60-70bc878a635f" />
 
-
+-
 
 <img width="1522" height="592" alt="Image" src="https://github.com/user-attachments/assets/71518071-4b61-4bde-adf8-f2bf70b4f985" />
 
-
+-
 
 <img width="1161" height="675" alt="Image" src="https://github.com/user-attachments/assets/62baee4f-d693-4fbd-9475-1ff2af01cf5c" />
 
-
+-
 
 <img width="1538" height="703" alt="Image" src="https://github.com/user-attachments/assets/cf4ea980-7900-4ded-9e5f-fb53396e987f" />
 
-
+-
 
 <img width="1358" height="671" alt="Image" src="https://github.com/user-attachments/assets/2092f689-1044-4cc7-8c55-0a5df3c69222" />
 
