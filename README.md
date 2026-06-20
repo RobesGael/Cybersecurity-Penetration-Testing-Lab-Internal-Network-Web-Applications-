@@ -253,31 +253,41 @@ Steps:
 <img width="1892" height="630" alt="Image" src="https://github.com/user-attachments/assets/0dc10e3d-6de8-4a18-8de0-f2a615bd8178" />
 
 
+
 <img width="1333" height="535" alt="Image" src="https://github.com/user-attachments/assets/0bff77bc-a037-4af8-b87a-b2590385d23f" />
+
 
 
 <img width="1542" height="685" alt="Image" src="https://github.com/user-attachments/assets/c066b7fa-076a-4d23-bc17-35bd664363f1" />
 
 
+
 <img width="1593" height="687" alt="Image" src="https://github.com/user-attachments/assets/9a27d51f-5a41-436e-a9db-cc41a9cb5a91" />
+
 
 
 <img width="1522" height="617" alt="Image" src="https://github.com/user-attachments/assets/3d1f5d5d-897e-4be6-a2c9-819a7db1158f" />
 
 
+
 <img width="1522" height="673" alt="Image" src="https://github.com/user-attachments/assets/b1e529ac-369b-49c0-81c6-281b272852e6" />
+
 
 
 <img width="1522" height="626" alt="Image" src="https://github.com/user-attachments/assets/9fadfea5-6fd2-48b3-be60-70bc878a635f" />
 
 
+
 <img width="1522" height="592" alt="Image" src="https://github.com/user-attachments/assets/71518071-4b61-4bde-adf8-f2bf70b4f985" />
+
 
 
 <img width="1161" height="675" alt="Image" src="https://github.com/user-attachments/assets/62baee4f-d693-4fbd-9475-1ff2af01cf5c" />
 
 
+
 <img width="1538" height="703" alt="Image" src="https://github.com/user-attachments/assets/cf4ea980-7900-4ded-9e5f-fb53396e987f" />
+
 
 
 <img width="1358" height="671" alt="Image" src="https://github.com/user-attachments/assets/2092f689-1044-4cc7-8c55-0a5df3c69222" />
@@ -289,15 +299,15 @@ Steps:
 
 Steps:
 
-- Searched for “apple” and “banana” → both returned normal results.
-- Searched for “robes” → received “no result found.”
-- Searched for <iframe> → a small empty pop‑up window appeared, confirming HTML injection.
-- Injected a crafted payload  the application executed it and displayed my IP address, proving DOM‑based XSS.
+- Searched for “apple” and “banana”  both returned normal results.
+- Searched for “robes”  received “no result found.”
+- Searched for <iframe>  a small empty pop‑up window appeared, confirming HTML injection.
+- Injected a crafted payload  the application executed it and displayed my IP address, proving DOM‑based XSS:
 <img width="270" height="35" alt="Image" src="https://github.com/user-attachments/assets/22f1b08e-bb4e-4506-bb44-2a64f91bc63a" />
 
 
   
-- Enhanced the payload  to extract the authentication token from the client.
+- Enhanced the payload  to extract the authentication token from the client:
 <img width="485" height="35" alt="Image" src="https://github.com/user-attachments/assets/ebaa7c32-c60c-4cd4-90ff-a2a0b82a64b3" />
   
 - Used Burp Suite Decoder to decode the token.
