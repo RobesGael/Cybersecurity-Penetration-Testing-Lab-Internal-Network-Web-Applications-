@@ -178,13 +178,17 @@ Confidential File Exposure
 
 ### 2. Sensitive Data Exposure
 
-#### The GET /rest/memory/ HTTP/1.1 endpoint leaks other users information in its response, resulting in unauthorized disclosure of user data
+#### The GET /rest/memory/ HTTP/1.1 endpoint leaks other users information in its response, resulting in unauthorized disclosure of user data.
 <img width="1420" height="638" alt="Image" src="https://github.com/user-attachments/assets/30f728aa-e937-4fe6-9f83-2fb132ee0bc6" />
 <img width="1430" height="692" alt="Image" src="https://github.com/user-attachments/assets/924d3e86-2c59-457c-aa2b-eeaec58088a6" />
 
 
 
 ### 3. API Overexposure (/api/quantity)
+
+#### The GET /rest/quantity endpoint leaks internal stock quantities, allowing unauthorized users to access inventory information.
+<img width="1452" height="721" alt="Image" src="https://github.com/user-attachments/assets/41522525-41e8-41d1-9faa-0499a95adc3f" />
+<img width="1442" height="747" alt="Image" src="https://github.com/user-attachments/assets/af4cc708-c0e2-4bed-a9b7-e26755c7a8cb" />
 
 ### 4. IDOR in Basket API
 High
