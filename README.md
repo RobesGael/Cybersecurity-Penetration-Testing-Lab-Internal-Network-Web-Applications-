@@ -292,8 +292,12 @@ Steps:
 - Searched for “apple” and “banana” → both returned normal results.
 - Searched for “robes” → received “no result found.”
 - Searched for <iframe> → a small empty pop‑up window appeared, confirming HTML injection.
-- Injected a crafted payload (  "><img src=x onerror=alert(1)>  )  the application executed it and displayed my IP address, proving DOM‑based XSS.
-- Enhanced the payload (  "><img src=x onerror=alert(JSON.stringify(localStorage))>  ) to extract the authentication token from the client.
+- Injected a crafted payload  the application executed it and displayed my IP address, proving DOM‑based XSS.
+
+  
+- Enhanced the payload  to extract the authentication token from the client.
+
+  
 - Used Burp Suite Decoder to decode the token.
 - Successfully viewed sensitive user information inside the token, including: User name, Email, Password hash and User role.
 
