@@ -293,10 +293,12 @@ Steps:
 - Searched for “robes” → received “no result found.”
 - Searched for <iframe> → a small empty pop‑up window appeared, confirming HTML injection.
 - Injected a crafted payload  the application executed it and displayed my IP address, proving DOM‑based XSS.
+<img width="270" height="35" alt="Image" src="https://github.com/user-attachments/assets/22f1b08e-bb4e-4506-bb44-2a64f91bc63a" />
+
 
   
 - Enhanced the payload  to extract the authentication token from the client.
-
+<img width="485" height="35" alt="Image" src="https://github.com/user-attachments/assets/ebaa7c32-c60c-4cd4-90ff-a2a0b82a64b3" />
   
 - Used Burp Suite Decoder to decode the token.
 - Successfully viewed sensitive user information inside the token, including: User name, Email, Password hash and User role.
