@@ -271,12 +271,31 @@ Steps:
 <img width="1538" height="703" alt="Image" src="https://github.com/user-attachments/assets/cf4ea980-7900-4ded-9e5f-fb53396e987f" />
 
 <img width="1358" height="671" alt="Image" src="https://github.com/user-attachments/assets/2092f689-1044-4cc7-8c55-0a5df3c69222" />
+
+
 ### 9. Cross-Site Scripting (XSS)
-High
-→ Script execution + session/token exposure
-________________________________________
+
+#### The search functionality is vulnerable to DOM‑based XSS. By injecting HTML/JavaScript into the search parameter, it was possible to execute arbitrary code, extract the authentication token, and decode sensitive user information.
+
+Steps:
+
+- Searched for “apple” and “banana” → both returned normal results.
+- Searched for “robes” → received “no result found.”
+- Searched for <iframe> → a small empty pop‑up window appeared, confirming HTML injection.
+- Injected a crafted payload (  "><img src=x onerror=alert(1)>  )  the application executed it and displayed my IP address, proving DOM‑based XSS.
+- Enhanced the payload (  "><img src=x onerror=alert(JSON.stringify(localStorage))>  ) to extract the authentication token from the client.
+- Used Burp Suite Decoder to decode the token.
+- Successfully viewed sensitive user information inside the token, including: User name, Email, Password hash and User role.
 
 
+<img width="1652" height="802" alt="Image" src="https://github.com/user-attachments/assets/6844f064-89d9-44df-a3ef-5a385de59746" />
+<img width="1622" height="786" alt="Image" src="https://github.com/user-attachments/assets/6d98c843-01ea-4c18-be71-c53019e620a6" />
+<img width="1578" height="787" alt="Image" src="https://github.com/user-attachments/assets/6a3e43b6-d204-4a55-a836-fddff504ebea" />
+<img width="1593" height="492" alt="Image" src="https://github.com/user-attachments/assets/640b1fc1-5ddc-480a-bd3a-217803188003" />
+<img width="1712" height="547" alt="Image" src="https://github.com/user-attachments/assets/fb297353-a62d-4b94-a5f1-9636299a9a1b" />
+<img width="1702" height="593" alt="Image" src="https://github.com/user-attachments/assets/02967cf0-3ca7-42ee-a6a2-848e01628993" />
+<img width="1663" height="752" alt="Image" src="https://github.com/user-attachments/assets/1f211e3e-c2f9-42bf-9635-9a96a7b73bdd" />
+<img width="1651" height="757" alt="Image" src="https://github.com/user-attachments/assets/fac19db2-b730-4087-a000-3465d8341fef" />
 
 ## Phase 6: Post-Exploitation Analysis
 Objectives
