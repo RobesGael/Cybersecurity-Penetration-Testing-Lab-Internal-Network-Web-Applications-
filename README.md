@@ -191,9 +191,15 @@ Confidential File Exposure
 <img width="1442" height="747" alt="Image" src="https://github.com/user-attachments/assets/af4cc708-c0e2-4bed-a9b7-e26755c7a8cb" />
 
 ### 4. IDOR in Basket API
-High
-→ Cross-user data access via parameter manipulation
-________________________________________
+#### The basket endpoints allow unauthorized access to other users’ baskets simply by modifying the basket ID in the request.
+
+My Basket.
+<img width="1358" height="571" alt="Image" src="https://github.com/user-attachments/assets/dbd0c92a-b355-4c5d-b740-a326dc4f8b00" />
+
+Other users' baskets.
+<img width="1447" height="692" alt="Image" src="https://github.com/user-attachments/assets/b4422b9d-a5a5-4b69-9ee0-86746ffe82ec" />
+<img width="1430" height="682" alt="Image" src="https://github.com/user-attachments/assets/65b7d0ba-3774-4414-8305-b8dae5331852" />
+
 ### 5. Business Logic Vulnerability
 High
 → Negative quantity → wallet credit manipulation
