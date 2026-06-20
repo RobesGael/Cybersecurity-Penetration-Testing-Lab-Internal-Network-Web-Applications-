@@ -252,23 +252,33 @@ Steps:
 
 <img width="1892" height="630" alt="Image" src="https://github.com/user-attachments/assets/0dc10e3d-6de8-4a18-8de0-f2a615bd8178" />
 
+
 <img width="1333" height="535" alt="Image" src="https://github.com/user-attachments/assets/0bff77bc-a037-4af8-b87a-b2590385d23f" />
+
 
 <img width="1542" height="685" alt="Image" src="https://github.com/user-attachments/assets/c066b7fa-076a-4d23-bc17-35bd664363f1" />
 
+
 <img width="1593" height="687" alt="Image" src="https://github.com/user-attachments/assets/9a27d51f-5a41-436e-a9db-cc41a9cb5a91" />
+
 
 <img width="1522" height="617" alt="Image" src="https://github.com/user-attachments/assets/3d1f5d5d-897e-4be6-a2c9-819a7db1158f" />
 
+
 <img width="1522" height="673" alt="Image" src="https://github.com/user-attachments/assets/b1e529ac-369b-49c0-81c6-281b272852e6" />
+
 
 <img width="1522" height="626" alt="Image" src="https://github.com/user-attachments/assets/9fadfea5-6fd2-48b3-be60-70bc878a635f" />
 
+
 <img width="1522" height="592" alt="Image" src="https://github.com/user-attachments/assets/71518071-4b61-4bde-adf8-f2bf70b4f985" />
+
 
 <img width="1161" height="675" alt="Image" src="https://github.com/user-attachments/assets/62baee4f-d693-4fbd-9475-1ff2af01cf5c" />
 
+
 <img width="1538" height="703" alt="Image" src="https://github.com/user-attachments/assets/cf4ea980-7900-4ded-9e5f-fb53396e987f" />
+
 
 <img width="1358" height="671" alt="Image" src="https://github.com/user-attachments/assets/2092f689-1044-4cc7-8c55-0a5df3c69222" />
 
@@ -288,14 +298,27 @@ Steps:
 - Successfully viewed sensitive user information inside the token, including: User name, Email, Password hash and User role.
 
 
-<img width="1652" height="802" alt="Image" src="https://github.com/user-attachments/assets/6844f064-89d9-44df-a3ef-5a385de59746" />
-<img width="1622" height="786" alt="Image" src="https://github.com/user-attachments/assets/6d98c843-01ea-4c18-be71-c53019e620a6" />
-<img width="1578" height="787" alt="Image" src="https://github.com/user-attachments/assets/6a3e43b6-d204-4a55-a836-fddff504ebea" />
-<img width="1593" height="492" alt="Image" src="https://github.com/user-attachments/assets/640b1fc1-5ddc-480a-bd3a-217803188003" />
-<img width="1712" height="547" alt="Image" src="https://github.com/user-attachments/assets/fb297353-a62d-4b94-a5f1-9636299a9a1b" />
-<img width="1702" height="593" alt="Image" src="https://github.com/user-attachments/assets/02967cf0-3ca7-42ee-a6a2-848e01628993" />
-<img width="1663" height="752" alt="Image" src="https://github.com/user-attachments/assets/1f211e3e-c2f9-42bf-9635-9a96a7b73bdd" />
-<img width="1651" height="757" alt="Image" src="https://github.com/user-attachments/assets/fac19db2-b730-4087-a000-3465d8341fef" />
+<img width="1712" height="547" alt="Image" src="https://github.com/user-attachments/assets/010c2ace-50a2-45f3-aa87-6dc6088009b2" />
+
+
+<img width="1702" height="593" alt="Image" src="https://github.com/user-attachments/assets/25e1489e-1384-4518-851a-079a7d5a89ea" />
+
+
+<img width="1651" height="757" alt="Image" src="https://github.com/user-attachments/assets/f7fa4e9b-7021-483f-bd5b-17a96be2ee6c" />
+
+
+<img width="1652" height="802" alt="Image" src="https://github.com/user-attachments/assets/9bb15288-3ad6-4802-951a-972f92d59afe" />
+
+
+<img width="1622" height="786" alt="Image" src="https://github.com/user-attachments/assets/4bae3beb-7d51-48b2-9705-fb070c98e552" />
+
+
+<img width="1578" height="787" alt="Image" src="https://github.com/user-attachments/assets/649c06aa-6061-4fe7-a77a-1e1c6653bac3" />
+
+
+<img width="1593" height="492" alt="Image" src="https://github.com/user-attachments/assets/d738512d-fd6a-4da8-9f4b-5b2bc6232d0b" />
+
+
 
 ## Phase 6: Post-Exploitation Analysis
 Objectives
