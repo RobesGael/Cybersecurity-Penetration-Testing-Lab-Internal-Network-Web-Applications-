@@ -176,9 +176,11 @@ Confidential File Exposure
 #### In Burp Suite Repeater, after sending the modified request(Comment and rating), the server created a new feedback entry with ID 52.
 <img width="1257" height="632" alt="Image" src="https://github.com/user-attachments/assets/15b7db02-4173-4d24-831a-207185bf6a58" />
 
-### 2. Sensitive Data Exposure (/rest/memories)
+### 2. Sensitive Data Exposure
+
 #### The GET /rest/memory/ HTTP/1.1 endpoint leaks other users information in its response, resulting in unauthorized disclosure of user data
-→ Password hashes + user data exposed
+<img width="1420" height="638" alt="Image" src="https://github.com/user-attachments/assets/30f728aa-e937-4fe6-9f83-2fb132ee0bc6" />
+<img width="1430" height="692" alt="Image" src="https://github.com/user-attachments/assets/924d3e86-2c59-457c-aa2b-eeaec58088a6" />
 ________________________________________
 ### 3. API Overexposure (/api/quantity)
 Low–Medium
