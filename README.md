@@ -201,9 +201,15 @@ Other users' baskets.
 <img width="1430" height="682" alt="Image" src="https://github.com/user-attachments/assets/65b7d0ba-3774-4414-8305-b8dae5331852" />
 
 ### 5. Business Logic Vulnerability
-High
-→ Negative quantity → wallet credit manipulation
-________________________________________
+
+#### The application allows quantity manipulation, including negative values, enabling unauthorized price manipulation and invalid purchases.
+<img width="1292" height="543" alt="Image" src="https://github.com/user-attachments/assets/3f9b4105-60e3-49ad-b233-10c576dbaf12" />
+<img width="1372" height="591" alt="Image" src="https://github.com/user-attachments/assets/df9f6d85-efcb-48ed-84b9-57f4bdc38e84" />
+<img width="1227" height="680" alt="Image" src="https://github.com/user-attachments/assets/2f5c85aa-83c6-490f-ac63-2202fc9ecd39" />
+<img width="1451" height="566" alt="Image" src="https://github.com/user-attachments/assets/c6e80706-b6bb-40a5-81fc-3863b50d9df9" />
+<img width="1345" height="666" alt="Image" src="https://github.com/user-attachments/assets/c2f43516-fdd6-4ed6-afba-83ac8711c6cd" />
+<img width="1252" height="541" alt="Image" src="https://github.com/user-attachments/assets/e78b19ec-9aa0-4fdc-b4bd-830030a0d776" />
+
 ### 6. Confidential File Exposure (/ftp/acquisition)
 High
 → Sensitive document accessible without authorization
