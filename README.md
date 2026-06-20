@@ -214,7 +214,21 @@ Other users' baskets.
 <img width="1252" height="541" alt="Image" src="https://github.com/user-attachments/assets/e78b19ec-9aa0-4fdc-b4bd-830030a0d776" />
 
 
-### 6. Confidential File Exposure (/ftp/acquisition)
+### 6. Confidential File Exposure
+The /ftp endpoint allows unauthorized access to confidential documents by modifying the file path, indicating directory traversal and broken access control.
+
+Steps:
+
+- Sent GET /ftp/legal.md
+- Modified the request to GET /ftp/ to reveal the list of available documents
+- Identified additional files such as acquisition.md
+- Sent GET /ftp/acquisition.md and successfully accessed a confidential document
+
+<img width="1317" height="756" alt="Image" src="https://github.com/user-attachments/assets/39aecd74-7ab9-4d29-add8-76ce686bc25b" />
+
+<img width="1312" height="740" alt="Image" src="https://github.com/user-attachments/assets/bcc3021f-8bd1-446f-954a-d9fffe9586f0" />
+
+<img width="1266" height="742" alt="Image" src="https://github.com/user-attachments/assets/9a458655-db46-48cb-aca4-b2545bcb0931" />
 
 
 ### 7. SQL Injection Authentication Bypass
