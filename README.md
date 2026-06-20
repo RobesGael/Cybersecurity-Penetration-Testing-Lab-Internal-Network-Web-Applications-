@@ -22,6 +22,14 @@ Targets:
 - Ubuntu Server (Juice Shop): 192.168.1.145
 - SIEM (Wazuh): 192.168.1.105
 
+## Methodology (NIST SP 800-115)
+1.	Planning & Scoping 
+2.	Reconnaissance 
+3.	Scanning & Enumeration 
+4.	Vulnerability Analysis 
+5.	Exploitation 
+6.	Post-Exploitation Analysis 
+7.	Reporting 
 
   
 ## Phase 1: Planning & Scoping
@@ -379,22 +387,10 @@ Attackers may alter, delete, or corrupt data, impacting operational reliability 
 Access to internal tokens, APIs, or backend services may allow pivoting deeper into the environment.
 
 
-## Phase 7: Reporting
-Deliverables Produced
-Executive Summary
-Technical Findings
-CVSS Scoring
-MITRE ATT&CK Mapping
-Remediation Recommendations
+## Phase 7 – Reporting
+In alignment with NIST SP 800‑115, the Reporting phase consolidates all assessment activities, findings, evidence, and recommendations into a formal deliverable. This documentation provides a comprehensive record of the testing process and validated results. The complete penetration testing report is included in the accompanying report file.
 
-## Methodology (NIST SP 800-115)
-1.	Planning & Scoping 
-2.	Reconnaissance 
-3.	Scanning & Enumeration 
-4.	Vulnerability Analysis 
-5.	Exploitation 
-6.	Post-Exploitation Analysis 
-7.	Reporting 
+
 
 
 ## Tools Used
