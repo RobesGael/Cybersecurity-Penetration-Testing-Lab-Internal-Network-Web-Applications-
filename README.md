@@ -257,6 +257,9 @@ Steps:
 
 <img width="685" height="657" alt="Image" src="https://github.com/user-attachments/assets/5cb05dcd-9784-442f-9b6f-0f60c4999773" />
 <img width="1076" height="542" alt="Image" src="https://github.com/user-attachments/assets/10ef0b10-8fa3-4908-9450-bb4c89c63400" />
+<img width="1562" height="705" alt="Image" src="https://github.com/user-attachments/assets/99fc0f09-a8cd-4052-b471-ab019a6e23cf" />
+
+
 ### 8. SQL Injection 
 
 #### The search endpoint is vulnerable to SQL Injection. By gradually modifying the search parameter in Burp Repeater, it was possible to trigger SQLite error messages and eventually enumerate all database tables.
