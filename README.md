@@ -259,39 +259,61 @@ Steps:
 
 Steps:
 
-- Attempt normal login Username: admin, Password: any value
-
-Result: Login failed  
+1.  Attempt normal login
+   - Username: admin
+   - Password: any value
+   - Result: Login failed  
 This establishes the baseline behavior.
 
 2. Capture the login request in Burp Suite
-Intercept the POST request to the login endpoint.
-
-Send the request to Intruder.
+- Intercept the POST request to the login endpoint.
+- Send the request to Intruder.
 
 3. Configure Intruder payload
-Set the payload position on the username or password field.
-
-Inject a SQLi payload such as:
-
+- Set the payload position on the username or password field.
+- Inject a SQLi payload such as:
 
 4. Launch the attack
-Intruder sends multiple payload variations.
+- Intruder sends multiple payload variations.
 
 One of the payloads returns a 200 OK response with a different content length.
 
 5. Successful login as admin
-The server returns a valid session/JWT token.
+- The server returns a valid session/JWT token.
 
 The application grants admin-level access without valid credentials.
 
+-
 <img width="685" height="657" alt="Image" src="https://github.com/user-attachments/assets/5cb05dcd-9784-442f-9b6f-0f60c4999773" />
+
+
+-
 <img width="1076" height="542" alt="Image" src="https://github.com/user-attachments/assets/10ef0b10-8fa3-4908-9450-bb4c89c63400" />
+
+
+
+-
 <img width="1562" height="705" alt="Image" src="https://github.com/user-attachments/assets/99fc0f09-a8cd-4052-b471-ab019a6e23cf" />
+
+
+
+-
 <img width="1156" height="693" alt="Image" src="https://github.com/user-attachments/assets/befccf1f-9abb-431f-8e59-242c3e086d25" />
+
+
+-
 <img width="1156" height="693" alt="Image" src="https://github.com/user-attachments/assets/db3e5ad4-e728-47e8-8d9a-15621e4aadc7" />
+
+
+-
 <img width="1572" height="767" alt="Image" src="https://github.com/user-attachments/assets/7a339b9b-04e2-4c6c-bc1d-4de6f7a0d486" />
+
+
+-
 <img width="611" height="570" alt="Image" src="https://github.com/user-attachments/assets/cd2bcbf2-bcd6-48e2-a215-1f8a331b7064" />
+
+
+-
 <img width="512" height="746" alt="Image" src="https://github.com/user-attachments/assets/77fde89d-9423-4522-b7d1-2522cb29c588" />
 
 
