@@ -254,9 +254,8 @@ Steps:
 
 
 ### 7. SQL Injection Authentication Bypass
-Critical
-→ Full authentication bypass
-________________________________________
+
+<img width="685" height="657" alt="Image" src="https://github.com/user-attachments/assets/5cb05dcd-9784-442f-9b6f-0f60c4999773" />
 ### 8. SQL Injection 
 
 #### The search endpoint is vulnerable to SQL Injection. By gradually modifying the search parameter in Burp Repeater, it was possible to trigger SQLite error messages and eventually enumerate all database tables.
