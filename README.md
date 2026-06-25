@@ -257,6 +257,34 @@ Steps:
 
 #### The authentication mechanism is vulnerable to SQL Injection, allowing an attacker to bypass login controls and gain access without valid credentials.
 
+Steps:
+
+- Attempt normal login Username: admin, Password: any value
+
+Result: Login failed  
+This establishes the baseline behavior.
+
+2. Capture the login request in Burp Suite
+Intercept the POST request to the login endpoint.
+
+Send the request to Intruder.
+
+3. Configure Intruder payload
+Set the payload position on the username or password field.
+
+Inject a SQLi payload such as:
+
+
+4. Launch the attack
+Intruder sends multiple payload variations.
+
+One of the payloads returns a 200 OK response with a different content length.
+
+5. Successful login as admin
+The server returns a valid session/JWT token.
+
+The application grants admin-level access without valid credentials.
+
 <img width="685" height="657" alt="Image" src="https://github.com/user-attachments/assets/5cb05dcd-9784-442f-9b6f-0f60c4999773" />
 <img width="1076" height="542" alt="Image" src="https://github.com/user-attachments/assets/10ef0b10-8fa3-4908-9450-bb4c89c63400" />
 <img width="1562" height="705" alt="Image" src="https://github.com/user-attachments/assets/99fc0f09-a8cd-4052-b471-ab019a6e23cf" />
