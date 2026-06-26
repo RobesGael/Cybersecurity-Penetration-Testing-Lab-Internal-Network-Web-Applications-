@@ -20,7 +20,9 @@ Targets:
 - Windows 11: 192.168.1.136
 - Windows Server: 192.168.1.219
 - Ubuntu Server (Juice Shop): 192.168.1.145
-- SIEM (Wazuh): 192.168.1.105
+- SIEM (Wazuh): 192.168.1.104
+
+<img width="755" height="880" alt="Image" src="https://github.com/user-attachments/assets/88d18df4-28ac-444d-bd6c-62c84a7df4a5" />
 
 ## Methodology (NIST SP 800-115)
 1.	Planning & Scoping 
