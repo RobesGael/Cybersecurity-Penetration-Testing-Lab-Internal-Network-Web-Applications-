@@ -113,7 +113,7 @@ Services Identified:
 <img width="1013" height="237" alt="Image" src="https://github.com/user-attachments/assets/ece850ef-b448-46da-9458-6fe2fe573c83" />
 
 
-#### b- Windows server (WIN 11/192.168.1.219)
+#### b- Windows Server (WIN 11/192.168.1.219)
 Services Identified:
 - TCP/3389 – RDP
 <img width="972" height="586" alt="Image" src="https://github.com/user-attachments/assets/91249a4a-5caf-4309-9a30-5b316ba4a6fb" />
