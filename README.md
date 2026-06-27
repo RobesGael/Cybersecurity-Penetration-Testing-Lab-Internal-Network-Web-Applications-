@@ -156,18 +156,18 @@ Gobuster - Directory Enumeration:
 <img width="705" height="712" alt="Image" src="https://github.com/user-attachments/assets/37a99067-9ed0-41c2-97f5-e10ee6921355" />
 
 ## Phase 4: Vulnerability Analysis
-Objectives
+Objectives:
 
 Identify vulnerabilities and determine their impact.
 
-Key Findings
-SQL Injection
-Broken Access Control
-IDOR
-Sensitive Data Exposure
-Business Logic Manipulation
-Cross-Site Scripting
-Confidential File Exposure
+Key Findings:
+- SQL Injection
+- Broken Access Control
+- IDOR
+- Sensitive Data Exposure
+- Business Logic Manipulation
+- Cross-Site Scripting
+- Confidential File Exposure
 
 
 
@@ -465,86 +465,6 @@ In alignment with NIST SP 800‑115, the Reporting phase consolidates all assess
 •	SSH enumeration scripts 
 •	SMB/RDP probing tools 
 •	WinRM testing utilities 
-________________________________________
-🚨 Key Findings Summary
-Severity	Count
-Critical	2
-High	7
-Medium	1
-________________________________________
-📊 Key Vulnerabilities
-🔴 Critical
-•	SQL Injection (Authentication Bypass) 
-•	SQL Injection (Search Function) 
-🟠 High
-•	Insecure Direct Object Reference (IDOR) 
-•	Business Logic Manipulation 
-•	Sensitive Data Exposure (/rest/memories) 
-•	Cross-Site Scripting (XSS) 
-•	Confidential File Exposure (/ftp/acquisition) 
-🟡 Medium
-•	API Overexposure (/api/quantity) 
-________________________________________
-🧪 Attack Scenarios Demonstrated
-💉 SQL Injection (Auth Bypass)
-•	Authentication bypass via SQL injection payload 
-•	Unauthorized login without credentials 
-🔁 IDOR Exploitation
-•	Access to other users’ basket data via ID manipulation 
-💰 Business Logic Abuse
-•	Negative quantity manipulation resulting in wallet credit abuse 
-🌐 XSS Exploitation
-•	JavaScript execution in browser context via search functionality 
-________________________________________
-🧭 MITRE ATT&CK Mapping
-Technique	ID	Description
-Exploit Public-Facing Application	T1190	SQL Injection attacks
-Remote Services Exploitation	T1210	IDOR abuse
-Data from Information Repositories	T1213	API data exposure
-Command & Scripting Interpreter	T1059.007	XSS execution
-Abuse Elevation Control Mechanism	T1548	Business logic manipulation
-________________________________________
-📉 CVSS v3.1 Risk Ratings
-Vulnerability	Score	Severity
-SQL Injection (Auth Bypass)	9.8	Critical
-SQL Injection (Search)	9.1	Critical
-IDOR	8.1	High
-Sensitive Data Exposure	8.6	High
-Business Logic Flaw	7.5	High
-XSS	7.4	High
-File Exposure	7.8	High
-API Overexposure	4.3	Medium
-________________________________________
-📈 Key Security Insights
-•	Broken Access Control was the primary systemic weakness 
-•	Web application layer represented the highest attack surface 
-•	Internal Windows services exposed lateral movement opportunities 
-•	Business logic flaws allowed financial manipulation scenarios 
-•	API design lacked proper authorization enforcement 
-________________________________________
-🛠️ Recommendations Summary
-Immediate Actions
-•	Remediate SQL Injection vulnerabilities using parameterized queries 
-•	Remove sensitive data (password hashes) from API responses 
-•	Strengthen authentication mechanisms 
-High Priority
-•	Implement Role-Based Access Control (RBAC) 
-•	Fix IDOR vulnerabilities across all endpoints 
-•	Enforce strict server-side business logic validation 
-•	Secure file access controls 
-Infrastructure Hardening
-•	Disable unnecessary services (WinRM, WSDAPI if not required) 
-•	Enforce SMB signing and secure configuration 
-•	Restrict RDP access to trusted networks only 
-________________________________________
-📌 Conclusion
-The assessment identified multiple high and critical vulnerabilities across application and infrastructure layers.
-If present in a production environment, these weaknesses could lead to:
-•	Full system compromise 
-•	Sensitive data exposure 
-•	Financial manipulation 
-•	Unauthorized administrative access 
-•	Regulatory and compliance violations 
 
 
 ## Skills Demonstrated
