@@ -467,7 +467,8 @@ In alignment with NIST SP 800‑115, the Reporting phase consolidates all assess
 •	WinRM testing utilities 
 
 
-## Skills Demonstrated
+## Skills Demonstrated:
+
 •	Network penetration testing 
 •	Web application security testing 
 •	API security analysis 
