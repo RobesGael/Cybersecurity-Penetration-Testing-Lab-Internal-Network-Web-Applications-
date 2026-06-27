@@ -469,14 +469,14 @@ In alignment with NIST SP 800‑115, the Reporting phase consolidates all assess
 
 ## Skills Demonstrated:
 
-•	Network penetration testing 
-•	Web application security testing 
-•	API security analysis 
-•	Windows/Linux enumeration 
-•	OWASP Top 10 exploitation 
-•	Vulnerability reporting (NIST format) 
-•	CVSS risk modeling 
-•	MITRE ATT&CK mapping 
+- Network penetration testing 
+- Web application security testing 
+- API security analysis 
+- Windows/Linux enumeration 
+- OWASP Top 10 exploitation 
+- Vulnerability reporting (NIST format) 
+- CVSS risk modeling 
+- MITRE ATT&CK mapping 
 
 
 ## Author
