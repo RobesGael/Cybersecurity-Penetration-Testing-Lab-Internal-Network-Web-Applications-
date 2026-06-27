@@ -8,7 +8,7 @@ This project simulates a real-world enterprise penetration test performed in a c
 - API security assessment 
 - Windows and Linux service analysis 
 - Vulnerability exploitation and reporting 
-- Risk analysis using CVSS v3.1 and MITRE ATT&CK 
+- Risk analysis using CVSS v3.1 and MITRE ATT&CK.  
 The assessment follows the NIST SP 800-115 methodology, aligned with real-world consulting penetration testing practices.
 
 
@@ -40,11 +40,11 @@ Targets:
 ### a- Scope of Engagement
 #### In-Scope Assets
  
-- Kali Linux	    192.168.1.203	   Attacker Machine
-- Windows 11	    192.168.1.136	   User Workstation
-- Windows Server	192.168.1.219	   Enterprise Server
-- Ubuntu Server	  192.168.1.145	   Web Application Host (OWASP Juice Shop)
-- Wazuh SIEM	    192.168.1.105	   Security Monitoring System
+- Kali Linux	    (192.168.1.203,	   Attacker Machine)
+- Windows 11	    (192.168.1.136,	   User Workstation)
+- Windows Server	(192.168.1.219,	   Enterprise Server)
+- Ubuntu Server	  (192.168.1.145,	   Web Application Host (OWASP Juice Shop))
+- Wazuh SIEM	    (192.168.1.105,	   Security Monitoring System)
 
 
 #### Network Scope
