@@ -39,7 +39,7 @@ Targets:
 
 ### a- Scope of Engagement
 #### In-Scope Assets
-  Asset	          IP Address	     Role
+ 
 - Kali Linux	    192.168.1.203	   Attacker Machine
 - Windows 11	    192.168.1.136	   User Workstation
 - Windows Server	192.168.1.219	   Enterprise Server
