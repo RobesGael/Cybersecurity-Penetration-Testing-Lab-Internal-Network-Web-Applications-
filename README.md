@@ -53,7 +53,8 @@ Targets:
 
 #### In-Scope Services
 - Web applications (3000) 
-- SMB (445) 
+- SMB (445)
+- NetBios-SSN (139) 
 - RDP (3389) 
 - WinRM (5985) 
 - SSH (22) 
