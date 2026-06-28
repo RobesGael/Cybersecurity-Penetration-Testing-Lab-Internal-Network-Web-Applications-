@@ -484,5 +484,5 @@ Robes Fokoueng
 
 
 ## Disclaimer
-This project was conducted in a controlled and isolated lab environment for educational and professional development purposes only. No real-world systems were targeted.
+This penetration test was conducted in a controlled and isolated laboratory environment for educational and professional development purposes. All testing activities were authorized and performed against systems owned and administered within the lab environment. No production or third-party systems were targeted.
 
